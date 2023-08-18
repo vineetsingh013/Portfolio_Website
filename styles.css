@@ -1,44 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500&family=Caveat:wght@600&family=Cedarville+Cursive&family=Titillium+Web:wght@600&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #ECE5C7;
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500&family=Caveat:wght@600&family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Titillium+Web:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ece5c7;
 }
-a:link{
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-    
+a:link {
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
 }
 .navbar {
-    display: flex;
-    justify-content: center;
-    background-color: #C2DEDC;
-    color: #116A7B;
+  display: flex;
+  justify-content: center;
+  background-color: #B9B4C7;
+  color: #116a7b;
 }
 
 .itm {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: inherit;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: inherit;
 }
 
 .item {
-    margin: 0 10px;
-    padding: 0vw 2vw;
-    font-size: 2vw;
-    background-color: inherit;
+  margin: 0 10px;
+  padding: 0vw 2vw;
+  font-size: 2vw;
+  background-color: inherit;
 }
 
-a:hover{
-    color: whitesmoke;
+a:hover {
+  color: whitesmoke;
 }
 
-.profile{
-    border-radius: 50%;
-    height: 30%;
-    width: 30%;
-    margin: 4vw;
+.profile {
+  border-radius: 50%;
+  height: 70%;
+  width: 70%;
+  margin: 4vw;
+}
+
+.About {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.about {
+    padding-top: 2vw;
+    text-align: justify;
+  margin: 3vw;
+  font-size: 2vw;
+  font-family: 'Dancing Script', cursive;
 }
