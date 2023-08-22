@@ -1,21 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500&family=Caveat:wght@600&family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Titillium+Web:wght@600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500&family=Caveat:wght@600&family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
   margin: 0;
   padding: 0;
   color: white;
-  background-color: #081424;
+  font-family: 'Barlow', sans-serif;
+  background-color: #526D82;
 }
 a:link {    
   text-decoration: none;
   color: inherit;
   background-color: inherit;
 }
+
+a:visited{
+    color: white;
+    background-color: inherit;
+}
 .navbar {
+    position: sticky;
+    z-index: 1;
+    top: 0;
   display: flex;
   justify-content: center;
-  background-color: rgb(54, 125, 240);
-  color: #116a7b;
+  background-color: #27374D;
+  color: white;
 }
 
 .itm {
@@ -34,7 +44,7 @@ a:link {
 }
 
 a:hover {
-  color: whitesmoke;
+  color:white;
 }
 
 .profile {
@@ -57,8 +67,8 @@ a:hover {
   padding-top: 2vw;
   text-align: justify;
   margin: 3vw;
-  font-size: 2.2vw;
-  font-family: "Dancing Script", cursive;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .head {
@@ -66,6 +76,7 @@ a:hover {
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
+  text-decoration: underline;
 }
 
 .skills{
@@ -75,21 +86,79 @@ a:hover {
 .imgski{
     padding: 3em;
     margin-left: 5em;
-    height: 20vw;
-    width: 20vw;
+    height: 18vw;
+    width: 18vw;
 
 }
 
 .skill1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 .skill2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 .skill3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 
+.pro{
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.prolist{
+    margin:auto;
+    margin-top: 2vw;
+    height: 40vw;
+    width: 40vw;
+}
+
+.disc{
+    font-size: 2vw;
+   text-align: center;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.soci{
+    list-style-type: none;
+    font-size: 2vw;
+    text-align: right;
+    margin-right: 4vw;
+    text-align: justify;
+
+}
+
+.con{
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    padding: 2vw;
+    text-decoration: underline;
+
+}
+
+.contact{
+    padding-left: 12vw;
+    
+}
+.cofo, .text{
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.credits{
+    color: white;
+    padding-top: 3vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
